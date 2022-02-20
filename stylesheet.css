@@ -70,6 +70,12 @@ h6 {
     color: aliceblue;
 }
 
+.content {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 20px;
+}
+
 .landing {
     background: url('./images/landing-background.png') no-repeat center center fixed;
     background-size: cover;
@@ -79,17 +85,14 @@ h6 {
     margin: 0;
 }
 
-.bg-overlay {
-    background:rgba(0,0,0, 0.3);
-    height: 855px;
+.container {
+    
 }
 
 .projects {
     background: url('./images/projects-background.png') no-repeat center center fixed;
     background-size: cover;
     color: white;
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
     text-align: center;
     height: 855px;
     margin: 0;
