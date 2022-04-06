@@ -14,8 +14,6 @@ h4,
 h5,
 h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 700;
-    text-align: center;
 }
 
 .navbar {
@@ -147,20 +145,20 @@ h1 {
 .landing {
     background: url('./images/landing-background.png') no-repeat center center fixed;
     background-size: cover;
-    color: darkviolet;
-    text-align: center;
+    color: whitesmoke;
     height: 100vh;
     margin: 0;
 }
+
+.landing p {
+    font-weight: 700;
+    font-size: x-large;
 
 .container {
     
 }
 
-.pending {
-    font-size: smaller;
-    font-style: italic;
-}
+
 /*
 .bounce {
     height: 50px;
